@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const AIRTABLE_API_KEY = "patLTUZsxLWiIcHta.28392729c46ef7f0cbcdfdad6ab6e2f574990159c3eaf9752cd92bf00f9992cb";
   const BASE_ID = "appJPJnHtBga6JB9B";
-  const TABLE_NAME = "Contact";
+  const TABLE_NAME = "Contact"; 
   // function validation email
   function isValidEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
